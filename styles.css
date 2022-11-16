@@ -1,8 +1,14 @@
 header {
-    background-color: rgb(187, 115, 32);
+    background-color: #9E7005;
 }
 
 
 body {
-    background-color: rgba(187, 115, 32, 0.92);
+    background-color:#E3B64B;
+    margin: 0px;
+    text-align: center;
+}
+
+.lower {
+    
 }
