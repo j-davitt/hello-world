@@ -10,8 +10,10 @@ body {
 }
 
 .lower img {
-    max-width: 20%;
-    height: auto;
+    max-height: 250px;
+    width: auto;
+    padding: 10px;
+    background-color: #9E7005;
 }
 
 .lower h1 {
