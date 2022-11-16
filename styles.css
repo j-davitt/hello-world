@@ -1,3 +1,8 @@
-title {
-    
+header {
+    background-color: rgb(187, 115, 32);
+}
+
+
+body {
+    background-color: rgba(187, 115, 32, 0.92);
 }
