@@ -9,6 +9,15 @@ body {
     text-align: center;
 }
 
+.lower img {
+    max-width: 20%;
+    height: auto;
+}
+
+.lower h1 {
+    font-size: 40px;
+}
+
 .lower {
-    
+    font-size: 20%;
 }
