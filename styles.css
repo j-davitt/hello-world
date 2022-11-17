@@ -23,3 +23,7 @@ body {
 .lower {
     font-size: 20%;
 }
+
+.rating-pic {
+    max-height: 100px;
+}

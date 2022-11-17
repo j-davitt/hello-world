@@ -14,18 +14,11 @@ function pageWelcome() {
     }
 }
 function bourbonCounter() {
-    let bottleCount = prompt('1-5');
+    let bottleCount = prompt('How many bottles? 1-5');
+    while (bottleCount < 1 || bottleCount > 5) {
+        bottleCount = prompt('Must be a number between 1 and 5');
+    }
     for (i = 0; i < bottleCount; i++) {
-        document.write('Bourbon');
+        document.write("<img class='rating-pic' src='blantons.jpg' alt= 'beautiful bourbon' />");
     }
 }
-
-
-    // let bottleCount = prompt('How many bottles of bourbon? 1-5');
-    // while (bottleCount != 1 || bottleCount != 2 || bottleCount != 3 || bottleCount != 4 || bottleCount != 5) {
-    //     bottleCount = prompt('Must be between 1-5. Try again');
-    // }
-
-
-// lucky number generator
-
