@@ -1,4 +1,3 @@
-alert('ANNOYING!');
 
     
 function pageWelcome(){
@@ -7,11 +6,14 @@ function pageWelcome(){
         alert("You didn't type a name");
         usersName = prompt('I must know your name. What is it?');
     }
-    if (confirm('All your base are belong to us ' + usersName)) {
-        document.write('BWAHAHAHA all your base are belong to us ' + usersName);
+    let luckyNumber = Math.floor(Math.random() * 100);
+    if (confirm('Would you like a lucky number, ' + usersName + '?')) {
+        document.write('Welcome ' + usersName + '. Your lucky number is: ' + luckyNumber);
     } else {
-        document.write('I really wish all your base are belong to us ' + usersName);
+        document.write('Welcome ' + usersName + '. This is where your lucky number would be.... IF YOU HAD ONE!');
     }
 }
 
+
+// lucky number generator
 
